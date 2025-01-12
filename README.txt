@@ -1,6 +1,6 @@
 ## 0) Software necesario
 
-Antes de comenzar, asegúrate de tener instalado en tu sistema:
+Antes de comenzar, asegurarse de tener instalado en el sistema:
 - [Docker](https://www.docker.com/) y [Docker Compose](https://docs.docker.com/compose/install/)
 - [Node.js](https://nodejs.org/) (para pruebas locales de los microservicios)
 - [Python 3.9+](https://www.python.org/downloads/) (opcional para pruebas locales de FastAPI)
@@ -14,7 +14,7 @@ docker-compose up
 Si necesitas reconstruir los contenedores, ejecuta el siguiente comando:
 docker-compose up --build --force-recreate --no-deps
 
-También puedes reiniciar un contenedor específico (por ejemplo, el gateway):
+También puedes reiniciar un contenedor específico:
 docker-compose up -d --no-deps --build main-app
 
 Los siguientes pasos se llevarían a cabo en caso de que desees iniciar los servicios manualmente sin usar Docker:
